@@ -1,3 +1,46 @@
+
+/* Css para o formulário de contato */
+
+.content {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 4%;
+  margin-bottom: 5%;
+}
+
+.contato {
+  width: 100%;
+  max-width: 500px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column; 
+}
+
+.field {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 3px;
+  font-size: 16px;
+  width: 500px;
+}
+
+textarea {
+  height: 150px;
+}
+
+#enviar {
+  width: 525px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+/* ---------------------------- */
+
 .partecinzadecima{
     min-height: 70px;
     background-image: radial-gradient(circle, #FEB559, #FEB559, #FEB559);
@@ -16,12 +59,13 @@ h1.maisalto {
   font-family: Arial, Helvetica, sans-serif;
   color: black;
   margin-left: 5%;
-  margin-right: 5%;
+  margin-right: 15%;
 
 }
 
 body {
   background-image: #f7f7f7;
+  margin: 0;
 }
 
 ul {
@@ -37,6 +81,8 @@ ul {
 li {
   float: left;
 }
+
+/* CSS menú */
 
 li a, .dropbtn {
   display: inline-block;
@@ -98,6 +144,8 @@ font-family: Arial, Helvetica, sans-serif;
   border:solid 2px #333;
 }
 
+/* CSS dos links paras redes sociais */
+
 .fotocontato1{
   width: 5%;
   margin: 1% 1% 1% 40%;
@@ -129,124 +177,6 @@ font-family: Arial, Helvetica, sans-serif;
 .fotocontato3:hover{
 transition: all 0.2s;
   transform: scale(1.1);
-}
-
-.textosn {
-  font-size: 150%;
-font-family: Arial, Helvetica, sans-serif;
-  color: black;
-  text-align: center;
-
-}
-
-.logocortada{
-  width: 25%;
-display: block;
-margin : auto;
-}
-
-.email {
-  font-size: 100%;
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
-  text-align: center;
-
-}
-
-.logocortadasob{
-width: 35%;
-display: block;
-margin: auto;
-}
-
-.textoaolado1 {
-font-size: 140%;
-font-family: Arial, Helvetica, sans-serif;
-color: black;
-margin-top: 1%;
-margin-right: 8%;
-margin-left: 8%;
-margin-bottom: 1%;
-text-align: center;
-}
-
-.textoaolado2 {
-font-size: 180%;
-font-family: Arial, Helvetica, sans-serif;
-color: black;
-margin-top: 5%;
-margin-right: 18%;
-margin-left: 18%;
-margin-bottom: 4%;
-text-align: center;
-}
-
-
-h1.unit {
-  margin-top: 8%;
-  font-size: 280%;
-font-family: Arial, Helvetica, sans-serif;
-  color: black;
-  text-align: center;
-
-}
-
-div.tiraamarela{
-  min-height: 70px;
-background-image: radial-gradient(circle, #FEB559, #FEB559, #FEB559);
-  border-color: #ff9900;
-  color: #ff9900;
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-}
-
-h1.textofaixa {
-  font-size: 60%;
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
-  margin-left: 5%;
-  margin-right: 5%;
-
-}
-
-.ende{
-  font-size: 50%;
-font-family: Arial, Helvetica, sans-serif;  color: black;
-  text-align: center;
-}
-
-.seila{
-  font-size: 50%;
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
-  text-align: center;
-}
-
-.cp1{
-  font-size: 30%;
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
-  text-align: center;
-}
-
-.cp2{
-  font-size: 80%;
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
-  text-align: center;
-}
-
-.traco {
-  background-color: #333;
-  min-height: 4px;
-  margin-right: 25%;
-  margin-left: 25%;
-  margin-top: 4%;
-  margin-bottom: 4%;
-  opacity: 0.3;
 }
 
 .fotocontato1b {
@@ -312,39 +242,133 @@ font-family: Arial, Helvetica, sans-serif;  color: black;
   -moz-transform: scale(1.1);
 }
 
+
+.textosn {
+  font-size: 150%;
+font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-align: center;
+
+}
+
+.logocortada{
+  width: 25%;
+display: block;
+margin : auto;
+}
+
+.email {
+  font-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-align: center;
+
+}
+
+.logocortadasob{
+width: 35%;
+display: block;
+margin: auto;
+}
+
+/* -------------------- */
+
+.textoaolado1 {
+font-size: 140%;
+font-family: Arial, Helvetica, sans-serif;
+color: black;
+margin-top: 1%;
+margin-right: 8%;
+margin-left: 8%;
+margin-bottom: 1%;
+text-align: center;
+}
+
+.textoaolado2 {
+font-size: 180%;
+font-family: Arial, Helvetica, sans-serif;
+color: black;
+margin-top: 5%;
+margin-right: 18%;
+margin-left: 18%;
+margin-bottom: 4%;
+text-align: center;
+}
+
+
+h1.unit {
+  margin-top: 3%;
+  font-size: 280%;
+font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-align: center;
+
+}
+
+div.tiraamarela{
+  min-height: 70px;
+background-image: radial-gradient(circle, #FEB559, #FEB559, #FEB559);
+  border-color: #ff9900;
+  color: #ff9900;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+h1.textofaixa {
+  font-size: 60%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
+
+.ende{
+  font-size: 50%;
+font-family: Arial, Helvetica, sans-serif;  color: black;
+  text-align: center;
+}
+
+.seila{
+  font-size: 50%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-align: center;
+}
+
+.cp1{
+  font-size: 30%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-align: center;
+}
+
+.cp2{
+  font-size: 80%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-align: center;
+}
+
+.traco {
+  background-color: #333;
+  min-height: 4px;
+  margin-right: 25%;
+  margin-left: 25%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  opacity: 0.3;
+}
+
 footer{
   background-color: #D7DED7;
 }
 
 p{
   text-align: center;
-}
-
-textarea {
-  display: block;
-  margin: auto;
-  border: 2px solid #333;
-  width: 45%;
-}
-
-div.comment, #usrform{
-  display: block;
-  margin: auto;
-
-  margin-top: 2%;
-  margin-bottom: 2%;
-}
-
-input[type="submit"]{
-  background-color: #ff9900;
-  display: block;
-  margin: auto;
-}
-
-input[type="text"]{
-  border: 2px solid #333;
-  display: block;
-  margin: auto;
 }
 
 span {
