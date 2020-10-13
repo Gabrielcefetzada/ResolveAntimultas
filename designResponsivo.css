@@ -1,0 +1,30 @@
+@media only screen and (max-width: 700px) {
+   .contato, .field {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+     #enviar {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+   span, .email, .maisalto {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+   .dropdown-content a {
+   	padding: 10px 8px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+   .dropdown-content  {
+   	min-width: 100px;
+  }
+}
+

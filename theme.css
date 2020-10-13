@@ -4,6 +4,7 @@
 .content {
   display: flex;
   justify-content: center;
+  align-items: center;
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 4%;
   margin-bottom: 5%;
@@ -17,6 +18,8 @@
 .form {
   display: flex;
   flex-direction: column; 
+  justify-content: center;
+  align-items: center;
 }
 
 .field {

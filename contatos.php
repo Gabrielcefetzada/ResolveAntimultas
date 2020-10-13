@@ -26,7 +26,7 @@ if(isset($_POST['email']) && !empty($_POST['email'])){
 		 <?php
 	} else {
 		?>
-		 <h1 style="color: white; background-color: red; padding: 10px; text-align: center; margin-top: 10%; border-radius: 5px;"> O E-mail não pôde ser enviado. Tente mais tarde ou tente outro forma de contato.</h1>
+		 <h1 style="color: white; background-color: red; padding: 10px; text-align: center; margin-top: 10%; border-radius: 5px;"> O E-mail não pôde ser enviado. Tente mais tarde ou tente outra forma de contato.</h1>
 
 		 <p style="justify-content: center; align-items: center; text-align: center;"><a href="index.html" style="color: black; background-color: #ff9900; padding: 10px; border-radius: 5px; text-decoration:none;">Voltar para o início</a></p>
 		 <?php
